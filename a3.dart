@@ -14,7 +14,7 @@ class Item {
   factory Item.fromMap(Map<String, dynamic> map) {
     return Item(nome: map['nome'] as String,
     preco: (map['preco'] as num).toDouble(),
-    qtd: map['qtd'] as int);
+    qtd: map['qtd'] as int); //testepush
   }
 
   @override
